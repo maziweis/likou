@@ -33,6 +33,7 @@ namespace likou
                 carry = sumVal / 10;
 
                 ListNode sumNode = new ListNode(sumVal % 10);
+
                 cursor.next = sumNode;
                 cursor = sumNode;
 
